@@ -1,0 +1,13 @@
+.container{
+    /* background-color: rgb(224, 224, 224); */
+    background-color:rgba(255, 255, 255, 0);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;/* flex items will wrap onto multiple lines, from top to bottom.*/
+    flex-grow: 1;/* If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+

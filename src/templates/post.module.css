@@ -1,0 +1,10 @@
+.post{
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 40px;
+    align-items: center
+}
+
+.postTitle{
+}

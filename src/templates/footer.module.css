@@ -1,0 +1,44 @@
+.footerWrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerNav{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social{
+    width: 35%;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+
+.footerEnd{
+    /*background-color: rgba(71, 184, 146, 0.466);*/
+    background-color: whitesmoke;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    
+}
+
+.footerText {
+    font-size: 12px;
+    display: flex;
+    font-family: "Fira Sans Extra Condensed";
+    color: cadetblue;
+    text-decoration: none;
+}

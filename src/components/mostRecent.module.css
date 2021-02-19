@@ -1,0 +1,52 @@
+.cardWrapper{
+    width: 80%;
+    background:#FFF;
+        /*-webkit-box-shadow: 0px 0px 5px 2px #00000020;
+           -moz-box-shadow: 0px 0px 5px 2px #00000020;
+                box-shadow: 0px 0px 5px 2px #00000020;*/
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.first{
+    width: 55%;
+}
+
+.videoWrapper{
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+.videoWrapper iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.infoWrapper{ 
+    padding: 60px 45px;
+    line-height: 0.2;
+}
+
+.titleFirst {
+    font-family: "Fira Sans Extra Condensed";
+    color: cadetblue;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.dateFirst {
+    font-family: "Roboto", sans-serif;
+    color: cadetblue;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1;
+}

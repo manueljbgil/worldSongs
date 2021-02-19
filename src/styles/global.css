@@ -1,0 +1,190 @@
+html{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.top-banner{
+    width: 100%;
+    /*box-shadow: 0px 0px 50px -10px inset ;*/
+}
+
+.site-title-wrapper{
+    margin-top: -2px;
+    height: 150px;
+    background-color: rgba(113, 176, 196, 0.329);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-title-wrapper-active{
+    margin-top: -2px;
+    height: 150px;
+    box-shadow: 0px 3px 15px 0px cadetblue;
+    background-color: rgba(113, 176, 196, 0.329);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-title-country{
+    align-self: center;
+}
+.site-title-songs{
+    align-self: center;
+}
+
+.search-country{
+    margin-bottom: 150px;
+    background-color:  rgba(224, 224, 224, 0);
+    border: 1px solid cadetblue;
+    color:gray;
+    font-family: "Roboto",sans-serif;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.search-Wrapper{
+    height: 250px;
+    background: rgb(170,170,170);
+    background: linear-gradient(180deg, rgba(113,176,196,0.33) 0%, rgba(255,255,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -7px; -- for safari*/
+    margin-top: 0px;
+}
+
+.search-Wrapper-active{
+    height: 400px;
+    box-shadow: 0px -9px 15px -9px cadetblue;
+    background: rgb(170,170,170);
+    background: linear-gradient(180deg, rgba(113,176,196,0.33) 0%, rgba(255,255,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -7px; -- for safari*/
+    margin-top: 0px;
+    margin-bottom: 29px;
+}
+
+
+/***
+*
+* youtube floating player module 
+*
+***/
+.closeFloatingPlayer{
+    position: absolute;
+    width:5%;
+    right: 0;
+    top: -6.9%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closeFloatingPlayer svg{
+    left: 0;
+    top: 0;
+    display: flex;
+    background-color: #00000000;
+    fill: black;
+    stroke:#00000000;
+
+}
+
+.closeFloatingPlayer path:hover{
+    width: 5%;
+    left: 0;
+    top: 0;
+    display: flex;
+    background-color: #00000000;
+    fill:rgb(209, 68, 68);
+    stroke:none;
+
+}
+
+
+.floatingPlayer{
+    width: 28%;
+    background-color: rgba(220, 220, 220, 0);
+    position: fixed;
+    top: 60%;
+    left: 66.82%;
+}
+
+.videoWrapper{
+    padding-bottom: 56.15%; /* 16:9 */
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 0px 10px 2px #777;
+    -moz-box-shadow: 0 0px 10px 2px #777;
+         box-shadow: 0px 0px 10px 2px #777;
+
+}
+
+
+h4{
+    font-family: "Fira Sans Extra Condensed";
+    color: cadetblue;
+    text-decoration: none;
+}
+
+h1{
+    font-family: "Fira Sans Extra Condensed";
+    color: cadetblue;
+    text-decoration: none;
+    
+}
+
+h2{
+    font-family: "Fira Sans Extra Condensed";
+    color: cadetblue;
+    text-decoration: none;
+}
+
+h3{
+    font-family: "Fira Sans Extra Condensed";
+    color: cadetblue;
+    text-decoration: none;
+}
+
+span{
+    font-family: "Fira Sans Extra Condensed";
+    color: cadetblue;
+    text-decoration: none;
+}
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: cadetblue;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a {
+    font-family: "Fira Sans Extra Condensed";
+    color: cadetblue;
+    text-decoration: none;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+    color: cadetblue;
+    text-decoration: none;
+    font-size: 12px;
+}
