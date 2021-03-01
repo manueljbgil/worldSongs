@@ -7,6 +7,8 @@ import FloatingPlayer from "../components/floatingPlyer"
 import React, { useRef, useEffect, useState, prevState, useCallback } from "react"
 import { useForm } from "react-hook-form";
 import "@fontsource/fira-sans-extra-condensed"
+import "@fontsource/fira-sans-extra-condensed/100.css"
+import "@fontsource/fira-sans-extra-condensed/200.css"
 import "@fontsource/roboto/300.css"
 
 export default function Home({ data }) {

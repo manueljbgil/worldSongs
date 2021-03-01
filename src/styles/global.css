@@ -56,8 +56,19 @@ html{
     margin-top: 0px;
 }
 
+.search-Wrapper-test{
+    height: 0;
+    background: rgb(170,170,170);
+    background: linear-gradient(180deg, rgba(113,176,196,0.33) 0%, rgba(255,255,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -7px; -- for safari*/
+    margin-top: 0px;
+}
+
 .search-Wrapper-active{
-    height: 400px;
+    height: 0;
     box-shadow: 0px -9px 15px -9px cadetblue;
     background: rgb(170,170,170);
     background: linear-gradient(180deg, rgba(113,176,196,0.33) 0%, rgba(255,255,255,1) 100%);
@@ -66,7 +77,6 @@ html{
     align-items: center;
     /* margin-top: -7px; -- for safari*/
     margin-top: 0px;
-    margin-bottom: 29px;
 }
 
 
@@ -135,6 +145,7 @@ h4{
     font-family: "Fira Sans Extra Condensed";
     color: cadetblue;
     text-decoration: none;
+    font-weight: 200;
 }
 
 h1{
@@ -156,9 +167,9 @@ h3{
     text-decoration: none;
 }
 
-span{
+h4 > span{
     font-family: "Fira Sans Extra Condensed";
-    color: cadetblue;
+    color:rgb(155, 186, 187);
     text-decoration: none;
 }
 

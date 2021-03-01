@@ -3,8 +3,20 @@
     flex-direction: column;
     width: 90%;
     margin-top: 40px;
-    align-items: center
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.more{
+    margin-top: 20px;
 }
 
 .postTitle{
+    margin-bottom: 40px;
 }
