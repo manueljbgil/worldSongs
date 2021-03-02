@@ -50,7 +50,8 @@ export default function WorldMap(props) {
             enter => enter.append("path")
         )
         .on("click", (e,feature) => {
-            props.onChangeCountry((selectedCountry === feature ? "" : feature.properties.name), 0)
+            
+            props.onChangeCountry((selectedCountry === feature ? "" : feature.properties.name), feature.properties.numSongs)
         })
         .transition()
         .duration(2000)

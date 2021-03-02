@@ -23,11 +23,10 @@
 .mostRecentTitle{
     align-self: flex-start;
     padding: 5px 100px;
-    
 }
 
 hr{
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     width: 50%;
     background: rgb(255,255,255);
 background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(113,176,196,0.33) 49%, rgba(255,255,255,1) 100%);

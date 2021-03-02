@@ -2,7 +2,7 @@ svg{
     width: 100%;
     /* margin-top: 20px; */
     /* background-color: rgb(224, 224, 224); */
-    background-color: rgba(113, 176, 196, 0.329);
+    /*background-color: rgba(113, 176, 196, 0.329);*/
     stroke: #eeeeee20;
     display: flex;
 }

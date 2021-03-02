@@ -48,6 +48,7 @@ export default function Home({ data }) {
           <h4 className="site-title-songs">{(country.name != "" ? country.numSongs + " Songs" : " "  )}</h4>
         </div> }
         <WorldMap country={country.name} onChangeCountry={(countryName,countryNumOfSongs) => setCountry({name:countryName,numSongs:countryNumOfSongs})}/>
+        <div className={(country.name != "") ? "search-Wrapper-active" : "search-Wrapper-notActive"}></div>
         <div className="search-Wrapper">
           {/* "handleSubmit" will validate your inputs before invoking "onSubmit" */}
           <form onSubmit={handleSubmit(onSubmit)}>
