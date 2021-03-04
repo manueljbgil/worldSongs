@@ -1,4 +1,6 @@
 .footerWrapper{
+    bottom: 0;
+    height: 85px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;

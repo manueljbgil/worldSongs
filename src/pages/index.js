@@ -44,7 +44,7 @@ export default function Home({ data }) {
     <Container>
       <div className="top-banner">
         { <div className={(country.name != "") ? "site-title-wrapper-active" : "site-title-wrapper"}>
-          <h1 className="site-title-country">{(country.name != "" ? country.name : "" )}</h1>
+          <h1 className="site-title-country">{(country.name != "" ? country.name : "Select a Country" )}</h1>
           <h4 className="site-title-songs">{(country.name != "" ? country.numSongs + " Songs" : " "  )}</h4>
         </div> }
         <WorldMap country={country.name} onChangeCountry={(countryName,countryNumOfSongs) => setCountry({name:countryName,numSongs:countryNumOfSongs})}/>

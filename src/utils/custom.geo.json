@@ -975,7 +975,8 @@
                 "abbrev_len": 5,
                 "tiny": -99,
                 "homepart": 1,
-                "filename": "CPV.geojson"
+                "filename": "CPV.geojson",
+                "numSongs":0
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -42571,8 +42572,8 @@
                 "homepart": 1,
                 "filename": "ZAF.geojson",
                 "song": "",
-                "hasSong": false,
-                "numSongs":0
+                "hasSong": true,
+                "numSongs":1
             },
             "geometry": {
                 "type": "Polygon",
