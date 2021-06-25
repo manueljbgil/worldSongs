@@ -12945,8 +12945,8 @@
                 "homepart": 1,
                 "filename": "ARG.geojson",
                 "song": "",
-                "hasSong": false,
-                "numSongs":0
+                "hasSong": true,
+                "numSongs":1
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -42003,8 +42003,8 @@
                 "homepart": 1,
                 "filename": "UGA.geojson",
                 "song": "",
-                "hasSong": false,
-                "numSongs":0
+                "hasSong": true,
+                "numSongs":1
             },
             "geometry": {
                 "type": "Polygon",
@@ -53718,8 +53718,8 @@
                 "homepart": 1,
                 "filename": "RUS.geojson",
                 "song": "",
-                "hasSong": false,
-                "numSongs":0
+                "hasSong": true,
+                "numSongs":1
             },
             "geometry": {
                 "type": "MultiPolygon",

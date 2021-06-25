@@ -13,12 +13,14 @@ export default function MyFiles({data}) {
                 <thead>
                     <tr>
                         <th>country</th>
+                        <th>artist</th>
                     </tr>
                 </thead>
                 <tbody>
                     {data.allMarkdownRemark.edges.map(({node},index) => (
                         <tr key={index}>
                             <td>{node.frontmatter.title}</td>
+                            <td>{node.frontmatter.artist}</td>
                         </tr>
                     ))}
                 </tbody>
@@ -36,6 +38,7 @@ export const query = graphql`
                 node {
                     frontmatter {
                         title
+                        artist
                     }
                 }
             }
