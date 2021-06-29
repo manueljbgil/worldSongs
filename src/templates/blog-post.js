@@ -26,6 +26,9 @@ export default function BlogPost({ data }) {
           <p>{post.frontmatter.excerpt}</p>
           <h3 className={postStyles.more}>More from {post.frontmatter.title}</h3>
         </div>
+        <div className={postStyles.others}>
+            <p>No songs yet</p>
+        </div>
       </div>
     </Container>
   )

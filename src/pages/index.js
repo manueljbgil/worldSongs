@@ -6,10 +6,8 @@ import Posts from "../components/postsFeed"
 import FloatingPlayer from "../components/floatingPlyer"
 import React, { useRef, useEffect, useState, prevState, useCallback } from "react"
 import { useForm } from "react-hook-form";
-import "@fontsource/fira-sans-extra-condensed"
-import "@fontsource/fira-sans-extra-condensed/100.css"
-import "@fontsource/fira-sans-extra-condensed/200.css"
-import "@fontsource/roboto/300.css"
+import "@fontsource/cuprum";
+import "@fontsource/amatic-sc";
 
 export default function Home({ data }) {
 
@@ -44,7 +42,7 @@ export default function Home({ data }) {
     <Container>
       <div className="top-banner">
         { <div className={(country.name != "") ? "site-title-wrapper-active" : "site-title-wrapper"}>
-          <h1 className="site-title-country">{(country.name != "" ? country.name : "Select a Country" )}</h1>
+          <h1 className="site-title-country">{(country.name != "" ? country.name : "World Wide FM" )}</h1>
           <h4 className="site-title-songs">{(country.name != "" ? country.numSongs + " Songs" : " "  )}</h4>
         </div> }
         <WorldMap country={country.name} onChangeCountry={(countryName,countryNumOfSongs) => setCountry({name:countryName,numSongs:countryNumOfSongs})}/>

@@ -2,17 +2,19 @@ svg{
     width: 100%;
     /* margin-top: 20px; */
     /* background-color: rgb(224, 224, 224); */
-    /*background-color: rgba(113, 176, 196, 0.329);*/
-    stroke: #eeeeee20;
+    
+    stroke-width: .5px;
+    stroke: #d6ff79;
     display: flex;
 }
 
 .clicked {
     width: 100%;
+    background-color: rgba(113, 176, 196, 0.329);
 }
 
 path:hover {
-    fill: #63EFEF;
+    fill: #d6ff79;
 }
 
 

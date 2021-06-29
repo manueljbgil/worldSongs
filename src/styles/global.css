@@ -1,5 +1,5 @@
 html, body{
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #2d4969;
     height: 100%;
 }
 
@@ -22,7 +22,7 @@ html, body{
 .site-title-wrapper-active{
     margin-top: -2px;
     height: 150px;
-    box-shadow: 0px 3px 15px 0px cadetblue;
+    box-shadow: 0px 0.5px 5px 0px #d6ff79;
     /*background-color: rgba(113, 176, 196, 0.329);*/
     display: flex;
     justify-content: center;
@@ -41,10 +41,10 @@ html, body{
 .search-country{
     margin-bottom: 50px;
     background-color:  rgba(224, 224, 224, 0);
-    border: 1px solid cadetblue;
-    color:gray;
-    font-family: "Roboto",sans-serif;
-    color: cadetblue;
+    border: 1px solid #d6ff79;
+    color:#d6ff79;
+    font-family: "Cuprum";
+    color: #d6ff79;
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ html, body{
 .search-Wrapper-active{
     transition: 2s;
     height: 30px;
-    box-shadow: 0px -10px 10px -5px cadetblue;
+    box-shadow: 0px -5px 5px -5px #d6ff79;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,60 +141,58 @@ html, body{
 
 
 h4{
-    font-family: "Fira Sans Extra Condensed";
-    color: cadetblue;
+    font-family: "Amatic SC";
+    color: #d6ff79;
     text-decoration: none;
     font-weight: 200;
 }
 
 h1{
-    font-family: "Fira Sans Extra Condensed";
-    color: cadetblue;
+    font-family: "Amatic SC";
+    color:#d6ff79;
     text-decoration: none;
     
 }
 
 h2{
-    font-family: "Fira Sans Extra Condensed";
-    color: cadetblue;
+    font-family: "Amatic SC";
+    color: #d6ff79;
     text-decoration: none;
 }
 
 h3{
-    font-family: "Fira Sans Extra Condensed";
-    color: cadetblue;
+    font-family: "Amatic SC";
+    color: #d6ff79;
     text-decoration: none;
 }
 
 h4 > span{
-    font-family: "Fira Sans Extra Condensed";
+    font-family: "Amatic SC";
     color:rgb(155, 186, 187);
     text-decoration: none;
 }
 
 
 p{
-    font-family: 'Roboto', sans-serif;
-    color: cadetblue;
+    font-family: "Cuprum";
+    color: #d6ff79;
     text-decoration: none;
     font-size: 12px;
 }
 
-a {
-    font-family: "Fira Sans Extra Condensed";
-    color: cadetblue;
+a {font-family: "Amatic SC";
+    color: #d6ff79;
     text-decoration: none;
 }
 
-span {
-    font-family: 'Roboto', sans-serif;
-    color: cadetblue;
+span {font-family: "Amatic SC";
+    color: #d6ff79;
     text-decoration: none;
 }
 
 input{
-    font-family: 'Roboto', sans-serif;
-    color: cadetblue;
+    font-family: "Cuprum";
+    color: #d6ff79;
     text-decoration: none;
     font-size: 12px;
 }

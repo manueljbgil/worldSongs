@@ -38,7 +38,7 @@ export default function WorldMap(props) {
         console.log(selectedCountry.geometry.coordinates[0][0]);
         console.log(selectedCountry.geometry.coordinates[0].map((x,y) => ([x[0]*0.5,x[1]*0.5])));*/
         
-        const colorScale = scaleLinear().domain([0,5]).range(["cadetblue","#B0DE13"]);
+        const colorScale = scaleLinear().domain([0,1]).range(["#202a25","#d6ff79"]);
         const projection = geoMercator()
             .fitSize([window.innerWidth,window.innerHeight*0.6], selectedCountry || data)
             .precision(100);

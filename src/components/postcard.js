@@ -61,7 +61,7 @@ export default function PostCard(props) {
                         {props.artist}
                     </p>
                     <p>
-                        {props.dat}
+                    {props.dat}
                     </p>
                 </div>
             </Link>

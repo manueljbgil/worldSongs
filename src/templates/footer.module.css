@@ -8,7 +8,7 @@
 }
 
 .footerNav{
-    background-color: whitesmoke;
+    background-color: #202A2500;
     width: 100%;
     height: 60px;
     display: flex;
@@ -28,7 +28,7 @@ img{
 
 .footerEnd{
     /*background-color: rgba(71, 184, 146, 0.466);*/
-    background-color: whitesmoke;
+    background-color: #2d4969;
     width: 100%;
     height: 25px;
     display: flex;
@@ -41,7 +41,7 @@ img{
 .footerText {
     font-size: 12px;
     display: flex;
-    font-family: "Fira Sans Extra Condensed";
-    color: cadetblue;
+    font-family: "Amatic SC";
+    color: #d6ff79;
     text-decoration: none;
 }

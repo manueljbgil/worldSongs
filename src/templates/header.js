@@ -25,7 +25,7 @@ export default function Header({ children }) {
     return (
         <header >
             <ul>
-                <ListLink  to="/">Songs of the World</ListLink>
+                <ListLink  to="/">World Wide FM</ListLink>
                 <ListLink to="/about/">About {data.site.siteMetadata.title}</ListLink>
                 <ListLink to="/my-files/">Countries</ListLink>
             </ul>

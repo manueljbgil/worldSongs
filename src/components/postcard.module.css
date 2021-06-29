@@ -1,6 +1,6 @@
 .cardWrapper{
     width: 28%;
-    background:#FFF;
+    background:#d0dcd610;
         -webkit-box-shadow: 0px 0px 5px 2px #00000020;
            -moz-box-shadow: 0px 0px 5px 2px #00000020;
                 box-shadow: 0px 0px 5px 2px #00000020;
@@ -8,6 +8,7 @@
     margin-top: 40px;
     margin-bottom: 60px;
     text-align: left;
+    border-radius: 8px;
 }
 
 .cardWrapper:hover  { 

@@ -15,7 +15,10 @@
   },
   "dependencies": {
     "@emotion/react": "^11.1.4",
+    "@fontsource/amatic-sc": "^4.4.5",
+    "@fontsource/cuprum": "^4.4.5",
     "@fontsource/fira-sans-extra-condensed": "^4.2.1",
+    "@fontsource/orbitron": "^4.4.5",
     "@fontsource/roboto": "^4.2.1",
     "@react-hook/mouse-position": "^4.1.0",
     "@react-icons/all-files": "^4.1.0",

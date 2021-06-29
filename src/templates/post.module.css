@@ -17,8 +17,13 @@
 .more{
     align-self: flex-start;
     margin-top: 20px;
+    height: 100%;
 }
 
 .postTitle{
     margin-bottom: 40px;
+}
+
+.others{
+    min-height: calc(39vh - 85px);
 }
