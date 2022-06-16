@@ -24,7 +24,7 @@ export default function Footer({ children }) {
                 <div className={footerStyles.social}>
                     <img src={'/github.svg'}  alt="Logo" />
                     <img src={'/twitter.svg'}  alt="Logo" />
-                    <img src={'/spotify.svg'}  alt="Logo" />
+                    <img src={'/logotipo-spotify.svg'}  alt="Logo" />
                 </div>
             </footer>
             <footer className={footerStyles.footerEnd}>

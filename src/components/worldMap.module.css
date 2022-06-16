@@ -3,8 +3,8 @@ svg{
     /* margin-top: 20px; */
     /* background-color: rgb(224, 224, 224); */
     
-    stroke-width: .5px;
-    stroke: #d6ff79;
+    stroke-width: .7px;
+    stroke: #a8a8a8;
     display: flex;
 }
 
@@ -14,12 +14,12 @@ svg{
 }
 
 path:hover {
-    fill: #d6ff79;
+    fill: #a7a7a7;
 }
 
 
 .banner{
-    background-color: rgb(255, 255, 255,0);
+    background-color: #303030;
     width: 100%;
 }
 

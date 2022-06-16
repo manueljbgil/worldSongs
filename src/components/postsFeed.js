@@ -43,30 +43,17 @@ export default function PostsFeed(props) {
   const postcards = data.allMarkdownRemark.edges.map(({ node }, index) => {
     
     if (props.country == "") {
-      /*if (index === 0) {
-        return (
-          <div className={feedStyles.mostRecent}>
-              <h1 className={feedStyles.mostRecentTitle}> Most Recent </h1>
-              <MostRecent url={node.fields.slug} id={node.frontmatter.videoID} title={node.frontmatter.title} startVideo={(id, time) => props.startFloat(id, time)} dat={node.frontmatter.date} artist={node.frontmatter.artist} html={node.html} ex={node.frontmatter.excerpt}/>
-              <h1 className={feedStyles.mostRecentTitle}> Other Songs </h1>
-          </div>
-        )
-      }
-      else{*/
         return (
           <Postcard url={node.fields.slug} id={node.frontmatter.videoID} title={node.frontmatter.title} startVideo={(id, time) => props.startFloat(id, time)} dat={node.frontmatter.date} artist={node.frontmatter.artist} html={node.html} />
         )
-      //}
     }
     else if (node.frontmatter.title == props.country) {
-      //console.log("supp");    
       return (
         <Postcard url={node.fields.slug} id={node.frontmatter.videoID} title={node.frontmatter.title} startVideo={(id, time) => props.startFloat(id, time)} dat={node.frontmatter.date} artist={node.frontmatter.artist} html={node.html} />
       )
     }
     else if (node.frontmatter.title != props.country) {
       countNoSongs++;
-      //console.log("countNoSongs",countNoSongs);
     }
 
     if (countNoSongs == data.allMarkdownRemark.edges.length) {

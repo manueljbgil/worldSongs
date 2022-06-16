@@ -8,6 +8,8 @@ import React, { useRef, useEffect, useState, prevState, useCallback } from "reac
 import { useForm } from "react-hook-form";
 import "@fontsource/cuprum";
 import "@fontsource/amatic-sc";
+import "@fontsource/saira-condensed";
+import "@fontsource/roboto";
 
 export default function Home({ data }) {
 
@@ -42,14 +44,14 @@ export default function Home({ data }) {
     <Container>
       <div className="top-banner">
         { <div className={(country.name != "") ? "site-title-wrapper-active" : "site-title-wrapper"}>
-          <h1 className="site-title-country">{(country.name != "" ? country.name : "World Wide FM" )}</h1>
+          <h1 className="site-title-country">{(country.name != "" ? country.name : "" )}</h1>
           <h4 className="site-title-songs">{(country.name != "" ? country.numSongs + " Songs" : " "  )}</h4>
         </div> }
         <WorldMap country={country.name} onChangeCountry={(countryName,countryNumOfSongs) => setCountry({name:countryName,numSongs:countryNumOfSongs})}/>
         <div className={(country.name != "") ? "search-Wrapper-active" : "search-Wrapper-notActive"}></div>
         <div className="search-Wrapper">
           {/* "handleSubmit" will validate your inputs before invoking "onSubmit" */}
-          <form onSubmit={handleSubmit(onSubmit)}>
+          <form className="search-form" onSubmit={handleSubmit(onSubmit)}>
             {/* register your input into the hook by invoking the "register" function */}
             {/* include validation with required or other standard HTML validation rules */}
             <input name="exampleRequired" defaultValue="" placeholder="search for a country"  ref={register} className="search-country"/>

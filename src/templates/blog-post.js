@@ -2,6 +2,7 @@ import { React, useRef} from "react"
 import { graphql } from "gatsby"
 import postStyles from "./post.module.css"
 import Container from "../components/container"
+import Posts from "../components/postsFeed"
 import YouTube from 'react-youtube';
 
 
@@ -11,6 +12,9 @@ export default function BlogPost({ data }) {
   const post = data.markdownRemark;
   console.log(post);
   
+  const passVideoID = (id, time) =>{
+    console.log("function passVideoID not working on songPost");
+  }
 
   return (
     <Container>
@@ -27,7 +31,7 @@ export default function BlogPost({ data }) {
           <h3 className={postStyles.more}>More from {post.frontmatter.title}</h3>
         </div>
         <div className={postStyles.others}>
-            <p>No songs yet</p>
+          <Posts country={post.frontmatter.title} startFloat={(id,time) => passVideoID(id,time)}/>
         </div>
       </div>
     </Container>

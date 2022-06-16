@@ -1,7 +1,6 @@
 .feed{
     width: 100%;
     min-height: 450px;
-    max-width: 1600px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;/* flex items will wrap onto multiple lines, from top to bottom.*/
@@ -9,6 +8,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: #303030;
     /* background-color: whitesmoke; */
     /*background-color: white;*/
 }
@@ -28,6 +28,4 @@
 hr{
     margin-bottom: 30px;
     width: 50%;
-    background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(113,176,196,0.33) 49%, rgba(255,255,255,1) 100%);
 }

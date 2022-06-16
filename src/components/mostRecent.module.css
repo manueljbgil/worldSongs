@@ -37,7 +37,7 @@
 
 .titleFirst {
     font-family: "Fira Sans Extra Condensed";
-    color: cadetblue;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 30px;
     font-weight: 200;
@@ -45,7 +45,7 @@
 
 .dateFirst {
     font-family: "Roboto", sans-serif;
-    color: cadetblue;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 14px;
     line-height: 1;
