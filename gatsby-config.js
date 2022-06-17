@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata:{
-    title:'Manel.com'
+    title:'WorldWideFM.com'
   },
   plugins: [
     {

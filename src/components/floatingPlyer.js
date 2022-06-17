@@ -1,8 +1,4 @@
 import {React, useEffect} from "react"
-import { css } from "@emotion/react"
-import { useStaticQuery, graphql } from "gatsby"
-import { BsFillXSquareFill } from "@react-icons/all-files/bs/BsFillXSquareFill";
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 import YouTube from 'react-youtube';
 
 export default function FloatingPlayer(props) {

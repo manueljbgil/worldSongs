@@ -1,11 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 import {graphql} from "gatsby"
 import myFilesStyles from "./my-files.module.css"
 import Container from "../components/container"
 
 export default function MyFiles({data}) {
-    console.log(data);
 
     return (
         <Container>

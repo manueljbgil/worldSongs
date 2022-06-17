@@ -1,10 +1,9 @@
-import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import Container from "../components/container"
 import WorldMap from "../components/worldMap"
 import Posts from "../components/postsFeed"
 import FloatingPlayer from "../components/floatingPlyer"
-import React, { useRef, useEffect, useState, prevState, useCallback } from "react"
+import React, { useState, useCallback } from "react"
 import { useForm } from "react-hook-form";
 import "@fontsource/cuprum";
 import "@fontsource/amatic-sc";
@@ -43,12 +42,12 @@ export default function Home({ data }) {
   return (
     <Container>
       <div className="top-banner">
-        { <div className={(country.name != "") ? "site-title-wrapper-active" : "site-title-wrapper"}>
-          <h1 className="site-title-country">{(country.name != "" ? country.name : "" )}</h1>
-          <h4 className="site-title-songs">{(country.name != "" ? country.numSongs + " Songs" : " "  )}</h4>
+        { <div className={(country.name !== "") ? "site-title-wrapper-active" : "site-title-wrapper"}>
+          <h1 className="site-title-country">{(country.name !== "" ? country.name : "" )}</h1>
+          <h4 className="site-title-songs">{(country.name !== "" ? country.numSongs + " Songs" : " "  )}</h4>
         </div> }
         <WorldMap country={country.name} onChangeCountry={(countryName,countryNumOfSongs) => setCountry({name:countryName,numSongs:countryNumOfSongs})}/>
-        <div className={(country.name != "") ? "search-Wrapper-active" : "search-Wrapper-notActive"}></div>
+        <div className={(country.name !== "") ? "search-Wrapper-active" : "search-Wrapper-notActive"}></div>
         <div className="search-Wrapper">
           {/* "handleSubmit" will validate your inputs before invoking "onSubmit" */}
           <form className="search-form" onSubmit={handleSubmit(onSubmit)}>

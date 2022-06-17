@@ -1,8 +1,6 @@
 import { React, useEffect, useRef, useState } from "react"
 import postcardStyles from "./postcard.module.css"
-import { css } from "@emotion/react"
 import { Link } from "gatsby"
-import { useStaticQuery, graphql } from "gatsby"
 import YouTube from 'react-youtube';
 
 export default function PostCard(props) {
@@ -11,15 +9,13 @@ export default function PostCard(props) {
     const [isOffScreen, setIsOffScreen] = useState(false)
     const [isPlaying, setIsPlaying] = useState(false)
     const iframeRef = useRef();
-    const opts = {
+/*     const opts = {
         height: '225',
         width: '100%',
-    }
+    } */
 
     // it runs after every render of the component
     useEffect(() => { 
-        console.log("im playing",isPlaying);
-        console.log("im onScreen",isOffScreen);
         
         if(!isOffScreen && isPlaying){
             console.log(player.getCurrentTime());

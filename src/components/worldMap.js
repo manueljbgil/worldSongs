@@ -1,30 +1,26 @@
 import React, { useRef, useEffect, useState } from "react"
 
 //d3
-import { select, geoPath, geoMercator, geoOrthographic, scaleLinear, min, max, zoom, zoomTransform } from 'd3'
+import { select, geoPath, geoMercator, scaleLinear } from 'd3'
 
 
 //worldMap GeoJSON data
 import data from "../utils/custom.geo.json"
 
 import "./worldMap.module.css"
-import { css } from "@emotion/react"
-import { Link } from "gatsby"
-import { useStaticQuery, graphql } from "gatsby"
-
 export default function WorldMap(props) {
 
     const svgRef = useRef();
     const [selectedCountry, setSelectedCountry] = useState(null);
-    const [song, setSong] = useState(null);
     const [countryName, setCountryName] = useState(null);
+    const [song, setSong] = useState(null);
     const [rotation, setRotation] = useState(0);
 
     useEffect(() => {
 
         const svg = select(svgRef.current); 
 
-        if(props.country==""){
+        if(props.country===""){
             setSelectedCountry(null)
         }
         for (let index = 0; index < data.features.length; index++) {

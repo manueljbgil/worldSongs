@@ -1,11 +1,9 @@
 import React from "react"
-import { css } from "@emotion/react"
 import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
-import headerStyles from "./header.module.css"
 
 const ListLink = props => (
-    <li >
+    <li>
         <Link to={props.to}>{props.children}</Link>
     </li>
 )
