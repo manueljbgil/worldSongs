@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Postcard from "../components/postcard"
-import feedStyles from "../components/postsFeed.module.css"
+import * as feedStyles from "../components/postsFeed.module.css"
 
 export default function PostsFeed(props) {
 

@@ -1,6 +1,6 @@
 import React from "react"
 import {graphql} from "gatsby"
-import myFilesStyles from "./my-files.module.css"
+import * as myFilesStyles from "./my-files.module.css"
 import Container from "../components/container"
 
 export default function MyFiles({data}) {

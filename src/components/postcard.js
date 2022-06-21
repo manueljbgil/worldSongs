@@ -1,5 +1,5 @@
 import { React, useEffect, useRef, useState } from "react"
-import postcardStyles from "./postcard.module.css"
+import * as postcardStyles from "./postcard.module.css"
 import { Link } from "gatsby"
 import YouTube from 'react-youtube';
 

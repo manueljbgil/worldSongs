@@ -1,6 +1,6 @@
 import React from "react"
 import Container from "../components/container"
-import AboutStyles from "./about.module.css"
+import * as AboutStyles from "./about.module.css"
 
 const User = props => (
     <div className={AboutStyles.user}>

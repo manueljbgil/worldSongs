@@ -1,5 +1,5 @@
 import { React, useEffect, useRef, useState } from "react"
-import MostRecentStyles from "./mostRecent.module.css"
+import * as MostRecentStyles from "./mostRecent.module.css"
 import { Link } from "gatsby"
 import YouTube from 'react-youtube';
 

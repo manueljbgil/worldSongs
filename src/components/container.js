@@ -1,5 +1,5 @@
 import React from "react"
-import containerStyles from "./container.module.css"
+import * as containerStyles from "./container.module.css"
 import Header from "../templates/header"
 import Footer from "../templates/footer"
 

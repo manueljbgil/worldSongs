@@ -1,6 +1,6 @@
 import { React, useRef} from "react"
 import { graphql } from "gatsby"
-import postStyles from "./post.module.css"
+import * as postStyles from "./post.module.css"
 import Container from "../components/container"
 import Posts from "../components/postsFeed"
 import YouTube from 'react-youtube';
