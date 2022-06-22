@@ -14,6 +14,15 @@ export default function PostCard(props) {
         width: '100%',
     } */
 
+    const opts = {
+        height: '200',
+        width: '403',
+        playerVars: {
+          // https://developers.google.com/youtube/player_parameters
+          autoplay: 1,
+        },
+      };
+
     // it runs after every render of the component
     useEffect(() => { 
         
@@ -45,7 +54,7 @@ export default function PostCard(props) {
     return (
         <div className={postcardStyles.cardWrapper}>
             <div ref={iframeRef} >
-                <YouTube videoId={props.id} containerClassName={postcardStyles.videoWrapper} onPlay={_onPlay} onReady={_onReady} />
+                <YouTube videoId={props.id} className={postcardStyles.videoWrapper}  opts={opts} onPlay={_onPlay} onReady={_onReady} />
                 {/*<div dangerouslySetInnerHTML={{ __html: props.html }} className={postcardStyles.videoWrapper} />*/}
             </div>
             <Link to={props.url}>

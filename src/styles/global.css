@@ -1,7 +1,6 @@
 html, body{
     background-color: #303030;
     height: 100%;
-    filter: grayscale(1) sepia(0.45);
 }
 
 .top-banner{
